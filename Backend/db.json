@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Harsh",
+      "id": "1",
+      "collage": "Ambedkar"
+    },
+    {
+      "name": "Ravi",
+      "id": "3",
+      "collage": "Jspiders"
+    },
+    {
+      "name": "Aditya",
+      "id": "4",
+      "collage": "Nam"
+    }
+  ]
+}

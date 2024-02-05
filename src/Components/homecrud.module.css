@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#homeContainer{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#homeContainer>a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+
+#createuserContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#createuserContainer>section{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#createuserContainer>section>button{
+   background-color: black;
+   color: white;
+   height: 30px;
+   width: 70px;
+   border-radius: 5px;
+}
+
+#usersContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#usersContainer>div{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#usersContainer>div>div{
+    margin: 10px;
+}
+
+#usersContainer>div>div>button, a>button{
+   margin: 5px;
+   background-color: black;
+   color: white;
+   border: 0;
+   padding: 5px;
+   border-radius: 5px;
+}
+
